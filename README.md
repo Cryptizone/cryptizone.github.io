@@ -1,2 +1,2 @@
-# sigton.github.io
-A new website, though not sure what for...
+# mrriptide.github.io
+A new website made to show my games.
