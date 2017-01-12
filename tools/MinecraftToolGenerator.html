@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+//var enchantment
+//var enchantment = oForm.elements["enchantment"].selectedIndex;
+function addEnchantment()
+ {
+  document.getElementById("demo").innerHTML = 5 + 6;
+ }
+//"Command: " + enchantment + "level"
+</script>
+
+<h1>David's Tool Generator</h1>
+<p>Make Minecraft Tools quick and easy!</p>
+
+<form id="num">
+Enchantment:
+<select size="1" id="slt_country" name="enchantment">
+<option value=""> - Select - </option>
+<option value="19">Knockback</option>
+<option value="16">Sharpness</option>
+<option value="70">Mending</option>
+</select>
+Enchant Level:
+<input type="text" name="level" value="">
+<input type="button" onclick="addEnchantment()" value="Add">
+</form> <br>
+
+<p id="demo">command</p>
+
+
+
+
+</body>
+</html> 
