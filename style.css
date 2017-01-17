@@ -117,6 +117,7 @@ img {
 
 footer {
 	
+<<<<<<< HEAD
 	width 100%;
 	height 4%;
 	background-color #333;
@@ -124,39 +125,91 @@ footer {
 	margin auto;
 	padding 10px 0;
 	position static;
+=======
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+>>>>>>> parent of 88179e1... A test to change positioning of text
 	
 }
 
-.footer-left {
+footer-left {
 	
+<<<<<<< HEAD
 	margin 0;
 	padding-left10px;
 	width 900px;
 	margin auto;
 	float bottom,left;
 	text-align left;
+=======
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+	text-align: left;
+>>>>>>> parent of 88179e1... A test to change positioning of text
 	
 }
 
-.footer-center {
+footer-center {
 	
+<<<<<<< HEAD
 	margin 0;
 	padding-left10px;
 	width 900px;
 	margin auto;
 	float bottom,center;
 	text-align center;
+=======
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+	text-align: center;
+>>>>>>> parent of 88179e1... A test to change positioning of text
 	
 }
 
-.footer-right {
+footer-right {
 	
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+	text-align: right;
+	
+}
+
+.footer {
+	
+<<<<<<< HEAD
 	margin 0;
 	padding-left10px;
 	width 0px;
 	margin auto;
 	float bottom,right;
 	text-align right;
+=======
+	margin: 0;
+	padding-left:10px;
+	width: 900px;
+	margin: auto;
+	float: bottom;
+>>>>>>> parent of 88179e1... A test to change positioning of text
 	
 }
 
