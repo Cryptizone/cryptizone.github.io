@@ -1,0 +1,183 @@
+@font-face {
+
+	font-family: 'Orion Pax';
+	src: url(resources/orionpax.otf) format(otf);
+	
+}
+
+@font-face {
+
+	font-family: 'Raleway';
+	src: url(resources/screamreal.ttf) format(ttf);	
+	
+}
+
+html, body {
+	
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway';
+	
+}
+
+body {
+	
+	background-color: #fff;
+	background-image: url(resources/background3.png);
+	
+}
+
+.container {
+	
+	background-color: #222;
+	background-image: url(resources/textcontainer1.jpg);
+	width: 900px;
+	height: 100%;
+	padding: 0;
+	position: static;
+	margin: auto;
+	
+}
+
+.navigation {
+	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #c84724;
+	
+}
+
+.navigation li {
+	
+	float: left;
+	
+}
+
+.navigation li a {
+	
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	transition: 0.5s;
+	
+}
+
+.active, .navigation li a:hover {
+	
+	background-color: #5e2313;
+	
+}
+
+h1,h2,h3,h4 {
+	
+	text-align:center;
+	padding: 0 5px;
+	font-family: 'Orion Pax';
+	color: white;
+	
+}
+
+h1 {
+	
+	font-size: 48px;
+	
+}
+
+.content {
+	
+	float: left;
+	margin: auto;
+	padding: 10px 5%;
+	width: 40%;
+	color: white;
+	
+}
+
+.widecontent {
+	
+	float: left;
+	margin: auto;
+	padding: 10px 5%;
+	width: 90%;
+	color: white;
+	
+}
+
+img {
+	
+	width: 100%;
+	
+}
+
+footer {
+	
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+	
+}
+
+footer-left {
+	
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+	text-align: left;
+	
+}
+
+footer-center {
+	
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+	text-align: center;
+	
+}
+
+footer-right {
+	
+	width: 100%;
+	height: 4%;
+	background-color: #333;
+	color: #777;
+	margin: 0;
+	padding: 10px 0;
+	position: static;
+	text-align: right;
+	
+}
+
+.footer {
+	
+	margin: 0;
+	padding-left:10px;
+	width: 900px;
+	margin: auto;
+	float: bottom;
+	
+}
+
+a, a:visited {
+	
+	color: white;
+	
+}
