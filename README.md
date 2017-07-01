@@ -1,2 +1,2 @@
-# mrriptide.github.io
-A new website made to show my games.
+# cryptizone.github.io
+A temporary website for the Cryptizone Network

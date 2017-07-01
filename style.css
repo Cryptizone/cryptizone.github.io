@@ -1,14 +1,61 @@
 @font-face {
 
 	font-family: 'Orion Pax';
-	src: url(resources/orionpax.otf) format(otf);
+	src: url(resources/fonts/orionpax.otf) format(otf);
 	
 }
 
 @font-face {
 
 	font-family: 'Raleway';
-	src: url(resources/screamreal.ttf) format(ttf);	
+	src: url(resources/fonts/screamreal.ttf) format(ttf);	
+	
+}
+
+@font-face {
+
+	font-family: 'Impact', Charcoal, sans-serif;	
+	
+}
+
+@font-face {
+
+	font-family: 'Verdana', Geneva, sans-serif;
+	
+}
+
+@font-face {
+
+	font-family: 'Code';
+	src: url(resources/fonts/CODE Light.otf) format(otf);	
+	
+}
+
+@font-face {
+
+	font-family: 'Aero';
+	src: url(resources/fonts/Aero.ttf) format(ttf);	
+	
+}
+
+@font-face {
+
+	font-family: 'Ethnocentric';
+	src: url(resources/fonts/ethnocentric rg.ttf) format(ttf);	
+	
+}
+
+@font-face {
+
+	font-family: 'Existence';
+	src: url(resources/fonts/Existence-Light.otf) format(otf);	
+	
+}
+
+@font-face {
+
+	font-family: 'Roboto';
+	src: url(resources/fonts/Roboto/Roboto-Medium.ttf) format(ttf);	
 	
 }
 
@@ -18,14 +65,15 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Raleway';
+	text-align: center;
+	color: #808080;
+	font-family: 'Verdana';
 	
 }
 
 body {
 	
-	background-color: #fff;
-	background-image: url(resources/background3.png);
+	background-color: #000000;
 	
 }
 
@@ -38,6 +86,7 @@ body {
 	padding: 0;
 	position: static;
 	margin: auto;
+	color: #808080;
 	
 }
 
@@ -47,7 +96,7 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
-	background-color: #c84724;
+	background-color: #f6ff00;
 	
 }
 
@@ -60,17 +109,19 @@ body {
 .navigation li a {
 	
 	display: inline-block;
-	color: white;
+	color: black;
 	text-align: center;
 	padding: 14px 20px;
 	text-decoration: none;
 	transition: 0.5s;
+	font-size: 25px;
+	font-family: 'Impact';
 	
 }
 
 .active, .navigation li a:hover {
 	
-	background-color: #5e2313;
+	background-color: #ffb400;
 	
 }
 
@@ -78,7 +129,7 @@ h1,h2,h3,h4 {
 	
 	text-align:center;
 	padding: 0 5px;
-	font-family: 'Orion Pax';
+	font-family: 'Impact';
 	color: white;
 	
 }
@@ -86,6 +137,30 @@ h1,h2,h3,h4 {
 h1 {
 	
 	font-size: 48px;
+	font-family: 'Impact';
+	color: Orange;
+	
+}
+
+h2 {
+	
+	font-size: 24px;
+	font-family: 'Verdana';
+	margin: auto;
+	padding: 10px 5%;
+	float: center;
+	color: Yellow;
+	
+}
+
+h3 {
+	
+	font-size: 12px;
+	font-family: 'Verdana';
+	margin: auto;
+	padding: 10px 5%;
+	float: center;
+	color: #808080;
 	
 }
 
@@ -95,7 +170,7 @@ h1 {
 	margin: auto;
 	padding: 10px 5%;
 	width: 40%;
-	color: white;
+	color: #adadad;
 	
 }
 
@@ -105,7 +180,7 @@ h1 {
 	margin: auto;
 	padding: 10px 5%;
 	width: 90%;
-	color: white;
+	color: #adadad
 	
 }
 
@@ -127,42 +202,36 @@ footer {
 	
 }
 
-footer-left {
+.footer-left {
 	
 	width: 100%;
 	height: 4%;
-	background-color: #333;
-	color: #777;
 	margin: 0;
 	padding: 10px 0;
-	position: static;
+	position: absolute;
 	text-align: left;
 	
 }
 
-footer-center {
+.footer-center {
 	
 	width: 100%;
 	height: 4%;
-	background-color: #333;
-	color: #777;
-	margin: 0;
+	margin: auto;
 	padding: 10px 0;
-	position: static;
+	position: absolute;
 	text-align: center;
 	
 }
 
-footer-right {
+.footer-right {
 	
 	width: 100%;
 	height: 4%;
-	background-color: #333;
-	color: #777;
 	margin: 0;
 	padding: 10px 0;
-	position: static;
-	text-align: right;
+	center: 180px;
+	position: absolute;
 	
 }
 
@@ -178,6 +247,6 @@ footer-right {
 
 a, a:visited {
 	
-	color: white;
+	color: #adadad;
 	
 }
